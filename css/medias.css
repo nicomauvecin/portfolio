@@ -1,0 +1,208 @@
+@media (max-width: 1000px) {
+  .menu {
+    z-index: 2;
+  }
+    .menu-list {
+    grid-template-columns: 0.7fr 0.3fr;
+    grid-template-areas:
+      'brand toggle'
+      'nav nav';
+    opacity: 1;
+    background: #17171767;
+  }
+
+  .contenido {
+      z-index: 0;
+  }
+
+  .brand {
+    grid-area: brand;
+  }
+
+  .brand h2,
+  .brand a {
+    font-size: 20px;
+    margin: 0 0 0 15px;
+    padding: 10px 0;
+  }
+
+  .contenedor-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    grid-area: toggle;
+  }
+
+  .toggle:hover {
+    color: #39a9cb;
+  }
+
+  .navbar {
+    position: relative;
+    grid-area: nav;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background: #17171767;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .navbar .separador {
+    display: none;
+  }
+
+  .inicio {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .perfil {
+    flex-direction: column;
+  }
+
+  .foto-perfil img {
+    width: 200px;
+  }
+
+  .info-perfil {
+    margin-top: 30px;
+  }
+
+  .info-perfil h1 {
+    font-size: 30px;
+  }
+
+  .info-perfil h1 span {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .info-perfil h2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 5px 10px 10px 10px;
+  }
+
+  .info-perfil p {
+    font-size: 16px;
+  }
+
+  .educacion {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .educacion .titular {
+    display: none;
+  }
+
+  .educacion .titular-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 30px;
+    border-bottom: 3px solid #39a9cb;
+  }
+
+  .titular h2,
+  .titular-media h2 {
+    font-size: 50px;
+  }
+
+  .curso h3 {
+    font-size: 40px;
+  }
+
+  .curso h4 {
+    font-size: 16px;
+  }
+
+  .habilidades {
+    height: 100vh;
+  }
+
+  .habilidad h3 {
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .proyectos {
+    height: auto;
+    margin-top: 50px;
+    padding: 50px 0;
+    z-index: 1;
+  }
+
+  .contenedor-proyectos {
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proyecto img {
+      width: 300px;
+  }
+
+  .proyecto .info {
+      width: 300px;
+  }
+
+  .proyecto {
+    z-index: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .brand h2,
+  .brand a {
+    font-size: 16px;
+    margin: 0 0 0 15px;
+    padding: 10px 0;
+  }
+
+  .foto-perfil img {
+    width: 150px;
+  }
+
+  .info-perfil h1 {
+    font-size: 20px;
+  }
+
+  .info-perfil h1 span {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .info-perfil h2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+  }
+
+  .info-perfil h2 span {
+    display: none;
+  }
+
+  .educacion .titular-media {
+    padding: 10px;
+  }
+
+  .educacion .titular-media h2 {
+      font-size: 24px;
+  }
+
+  .titular h2 {
+    font-size: 24px;
+  }
+}
