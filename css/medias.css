@@ -2,7 +2,7 @@
   .menu {
     z-index: 2;
   }
-    .menu-list {
+  .menu-list {
     grid-template-columns: 0.7fr 0.3fr;
     grid-template-areas:
       'brand toggle'
@@ -12,7 +12,7 @@
   }
 
   .contenido {
-      z-index: 0;
+    z-index: 0;
   }
 
   .brand {
@@ -122,7 +122,8 @@
   }
 
   .habilidades {
-    height: 100vh;
+    padding-top: 50px;
+    height: 100%;
   }
 
   .habilidad h3 {
@@ -150,11 +151,11 @@
   }
 
   .proyecto img {
-      width: 300px;
+    width: 300px;
   }
 
   .proyecto .info {
-      width: 300px;
+    width: 300px;
   }
 
   .proyecto {
@@ -199,7 +200,7 @@
   }
 
   .educacion .titular-media h2 {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .titular h2 {
