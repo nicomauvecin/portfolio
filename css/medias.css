@@ -1,6 +1,7 @@
 @media (max-width: 1000px) {
   .menu {
     z-index: 2;
+    
   }
   .menu-list {
     grid-template-columns: 0.7fr 0.3fr;
@@ -31,6 +32,7 @@
     justify-content: flex-end;
     margin-right: 30px;
     grid-area: toggle;
+    padding-bottom: 3px;
   }
 
   .toggle:hover {
@@ -99,13 +101,17 @@
     display: none;
   }
 
-  .educacion .titular-media {
+  .titular-media {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    margin: 50px;
     font-size: 30px;
     border-bottom: 3px solid #39a9cb;
+  }
+
+  .titular-media h2{
+    padding: 30px;
   }
 
   .titular h2,
