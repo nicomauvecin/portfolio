@@ -18,9 +18,10 @@ html {
 
 body {
   background: #171717;
+  background-image: url('../assets/fondo.png');
   min-height: calc(100vh - 100px);
   margin: 0;
-  background-attachment: fixed;
+  background-attachment: scroll;
   letter-spacing: 1px;
 }
 

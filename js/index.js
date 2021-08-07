@@ -44,7 +44,7 @@ function manejarClases(cb) {
         efectoEntrada(sectionSiguiente);
       });
       sectionActual = document.querySelector('section:not(.ocultar)');
-    }, 900);
+    }, 800);
   }
 }
 
