@@ -1,5 +1,5 @@
 const toggle = document.querySelector('.toggle');
-const navul = document.querySelector('.navbar');
+const navul = document.querySelector('.menu-list');
 const arraySections = [...document.querySelectorAll('section')];
 let sectionActual = document.querySelector('section:not(.ocultar)');
 
@@ -22,7 +22,7 @@ function mostrarSection(e) {
     manejarClases('habilidades');
   } else if (e.target.id === 'navbar-proyectos') {
     manejarClases('proyectos');
-  } else if (e.target.id === 'navbar-sobremi') {
+  } else if (e.target.id === 'navbar-sobremi' || e.target.id === 'logo') {
     manejarClases('sobre-mi');
   }
 }
