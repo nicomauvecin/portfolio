@@ -100,8 +100,9 @@ section {
 
 .foto-perfil img {
   width: 280px;
-  height: auto;
+  height: 280px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .info-perfil {
