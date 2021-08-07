@@ -1,7 +1,16 @@
+@media (max-width: 1500px) {
+  .sobre-mi {
+    padding: 50px;
+  }
+
+  .info-perfil h1 {
+    font-size: 60px;
+  }
+}
+
 @media (max-width: 1000px) {
   .menu {
     z-index: 2;
-    
   }
   .menu-list {
     grid-template-columns: 0.7fr 0.3fr;
@@ -111,7 +120,7 @@
     border-bottom: 3px solid #39a9cb;
   }
 
-  .titular-media h2{
+  .titular-media h2 {
     padding: 30px;
   }
 
