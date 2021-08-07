@@ -7,15 +7,19 @@
     <title>Nicolás Mauvecin</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="shortcut icon" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/medias.css">
+    <link rel="stylesheet" href="./css/medias.css" />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
   <body>
@@ -23,24 +27,34 @@
       <nav class="menu">
         <div class="menu-list">
           <div class="brand">
-            <h2><a href="#"> <span><</span> NICOLÁS MAUVECIN <span>/></span> </a></h2>
+            <h2>
+              <a href="#"> <span><</span> NICOLÁS MAUVECIN <span>/></span> </a>
+            </h2>
           </div>
           <div class="contenedor-toggle">
             <a href="#" class="toggle">☰</a>
           </div>
           <ul class="navbar">
-            <li class="nav-item"><a href="#">SOBRE MI</a></li>
+            <li class="nav-item">
+              <a href="#" id="navbar-sobremi">SOBRE MI</a>
+            </li>
             <li class="nav-item separador">|</li>
-            <li class="nav-item"><a href="#educacion">EDUCACION</a></li>
+            <li class="nav-item">
+              <a href="#" id="navbar-educacion">EDUCACION</a>
+            </li>
             <li class="nav-item separador">|</li>
-            <li class="nav-item"><a href="#habilidades">HABILIDADES</a></li>
+            <li class="nav-item">
+              <a href="#" id="navbar-habilidades">HABILIDADES</a>
+            </li>
             <li class="nav-item separador">|</li>
-            <li class="nav-item"><a href="#proyectos">PROYECTOS</a></li>
+            <li class="nav-item">
+              <a href="#" id="navbar-proyectos">PROYECTOS</a>
+            </li>
           </ul>
         </div>
       </nav>
       <div class="contenido">
-        <section class="inicio">
+        <section class="sobre-mi" id="sobre-mi">
           <div class="perfil">
             <div class="foto-perfil">
               <img src="https://via.placeholder.com/300" alt="" />
@@ -48,7 +62,10 @@
             <div class="info-perfil">
               <h1><span><</span> NICOLÁS MAUVECIN <span>/></span></h1>
               <h2>
-                DESARROLLADOR WEB <span>|</span> <a href="mailto:medinamauvecin@gmail.com">medinamauvecin@gmail.com</a>
+                DESARROLLADOR WEB <span>|</span>
+                <a href="mailto:medinamauvecin@gmail.com">
+                  medinamauvecin@gmail.com
+                </a>
               </h2>
               <p>
                 Estoy introduciendome en el mundo del desarrollo web intentando
@@ -79,7 +96,7 @@
             </a>
           </div>
         </section>
-        <section class="educacion" id="educacion">
+        <section class="educacion ocultar" id="educacion">
           <div class="titular">
             <h2>E</h2>
             <h2>D</h2>
@@ -110,7 +127,7 @@
             </div>
           </div>
         </section>
-        <section class="habilidades" id="habilidades">
+        <section class="habilidades ocultar" id="habilidades">
           <div class="titular">
             <h2>HABILIDADES</h2>
           </div>
@@ -157,7 +174,7 @@
             </div>
           </div>
         </section>
-        <section class="proyectos" id="proyectos">
+        <section class="proyectos ocultar" id="proyectos">
           <div class="titular">
             <h2>PROYECTOS</h2>
           </div>
@@ -213,7 +230,7 @@
           </div>
         </section>
         <footer class="footer">
-          <p>Nicolás Mauvecin  <span> © </span> 2021</p>
+          <p>Nicolás Mauvecin <span> © </span> 2021</p>
         </footer>
       </div>
     </div>
