@@ -1,12 +1,16 @@
 const toggle = document.querySelector('.toggle');
-const navul = document.querySelector('.menu-list');
+const navul = document.querySelector('.navbar');
+const navbar = document.querySelector('.menu-list');
 const arraySections = [...document.querySelectorAll('section')];
 let sectionActual = document.querySelector('section:not(.ocultar)');
 
 function manejarEventos() {
   navul.addEventListener('click', (e) => {
-    mostrarSection(e);
     cerrarMenuHamburguesa(e);
+  });
+
+  navbar.addEventListener('click', (e) => {
+    mostrarSection(e);
   });
 
   toggle.addEventListener('click', (e) => {
@@ -60,7 +64,10 @@ function efectoSalida(section) {
 }
 
 function cerrarMenuHamburguesa(e) {
-  if (e.target.parentNode.className === 'nav-item' && e.target.parentNode.className != 'separador') {
+  if (
+    e.target.parentNode.className === 'nav-item' &&
+    e.target.parentNode.className != 'separador'
+  ) {
     navul.classList.toggle('open');
   }
 }
