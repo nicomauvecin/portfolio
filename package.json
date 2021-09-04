@@ -20,6 +20,7 @@
   "homepage": "https://github.com/nicomauvecin/portfolio#readme",
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.2.2",
     "style-loader": "^3.2.1",
