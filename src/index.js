@@ -1,8 +1,10 @@
 import './style.css';
 import img from './assets/rocko.jpg';
+import { menuContainer } from './js/menu';
 console.log('hola');
 
-const col = document.querySelector('.col');
-col.innerHTML = `
-<img src="${img}">
-`;
+function init() {
+  menuContainer();
+}
+
+init();
