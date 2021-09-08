@@ -1,12 +1,56 @@
-.menu-container {
-  background-color: #171717;
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  background-color: #333;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 200px;
+  align-items: center;
+  text-align: center;
 }
 
-.menu-list li {
+.header ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.brand {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 10vh;
+}
+
+.brand span {
+  color: #39a9cb;
+}
+
+.brand:hover {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.social ul {
+  display: flex;
+}
+
+.social li {
+  margin: 15px;
+  font-size: 30px;
 }

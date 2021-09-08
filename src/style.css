@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 body {
   background: #171717;
   display: flex;
+  font-family: 'Segoe UI';
+  text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  color: #39a9cb;
 }
