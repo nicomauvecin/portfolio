@@ -5,8 +5,8 @@
   height: 100vh;
   width: 280px;
   background-color: #333;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 5% 85% 10%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -28,15 +28,22 @@
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  height: 10vh;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.brand:hover a:hover {
+  color: #39a9cb;
+}
+
+.brand:hover span {
+  color: white;
+  transition: 0.5s ease;
 }
 
 .brand span {
   color: #39a9cb;
-}
-
-.brand:hover {
-  color: white;
 }
 
 .menu {
